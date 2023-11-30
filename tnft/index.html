@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TNFT - nft от звезд</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header wrapper">
+        <img class="header__logo" src="./img/logo.svg" alt="логоти TNFT" />
+       
+        <div class="search-wrapper">
+            <input class="search w-100" type="text" placeholder="Поиск..." />
+            <ul class="search-list">
+                <li>
+                    <img src="./img/search-photo.jpg" alt="">
+                    Анастасия Ивлеева
+                </li>
+                <li>
+                    <img src="./img/search-photo2.jpg" alt="">
+                    Анастасия Задорожная
+                </li>
+                <li>
+                    <img src="./img/search-photo3.jpg" alt="">
+                    Анастасия Макеева
+                </li>
+            </ul>
+        </div>
+        <a class="button header__login-button" href="#">Вход</a>
+        <a class="button header__register-button" href="#">Регистрация</a>
+    </header>
+
+    <main class="wrapper">
+        <section class="filter">
+            <button class="filter__options">Фильтры</button>
+            <input class="search w-100" type="text" placeholder="Поиск..." />
+            <button class="filter__sort">По умолчанию</button>
+        </section>
+        <section class="celeb-list">
+            <div class="celeb-list__inner">
+                <article class="list-item">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item ">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item ">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item ">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item ">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item ">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item ">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+                <article class="list-item">
+                    <img src="./img/photo.jpg" alt="портрет" />
+                    <p class="list-item__description">Без слов</p>
+                    <div class="list-item__inner">
+                        <img src="./img/small-photo.jpg" alt="" />
+                        <div class="list-item__text">
+                            <p class="list-item__name">Настя Ивлеева Вячеславовна</p>
+                            <span class="list-item__sertified">проверено</span>
+                        </div>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Редкость:</span>
+                        <span class="list-item__rarity">уникальная</span>
+                    </div>
+                    <div class="list-item__label-wrapper">
+                        <span class="list-item__label">Цена:</span>
+                        <span class="list-item__price">от 500 ₽</span>
+                    </div>
+                    <a class="button list-item__button" href="#">Купить</a>
+                </article>
+            </div>
+            <div class="pagination">
+                <ul class="pagination__list">
+                    <li class="pagination__item">«</li>
+                    <li class="active pagination__item">1</li>
+                    <li class="pagination__item">2</li>
+                    <li class="pagination__item">3</li>
+                    <li class="pagination__item">4</li>
+                    <li class="pagination__item">5</li>
+                    <li class="pagination__item">»</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrapper wrapper">
+            <div class="footer__inner">
+                <div class="footer-section">
+                    <h3 class="footer-section__title">NFT</h3>
+                    <a class="footer-section__link" href="#">Что такое NFT</a>
+                    <a class="footer-section__link" href="#">Создвйте NFT <br> с нами</a>
+                    <a class="footer-section__socials" href="#">
+                        <img src="./img/twitter.svg" alt="twitter icon" />
+                    </a>
+                    <a class="footer-section__socials" href="#">
+                        <img src="./img/vk.svg" alt="vk icon" />
+                    </a>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-section__title">Компания</h3>
+                    <a class="footer-section__link" href="#">О нас</a>
+                    <a class="footer-section__link" href="#">Отправить запрос</a>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-section__title">Другое</h3>
+                    <a class="footer-section__link" href="#">Условия использования</a>
+                    <a class="footer-section__link" href="#">Политика <br> конфиденциальности</a>
+                </div>
+            </div>
+
+            <img class="footer__logo" src="./img/footer-logo.svg" alt="">
+            <p class="footer__copyright">
+                @ tnft.ru Company, Inc
+            </p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
